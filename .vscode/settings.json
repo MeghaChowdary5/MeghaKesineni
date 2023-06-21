@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e20c7543-5c15-402c-a53a-2f64d9bc8825/resourceGroups/MeghaKesineni_group/providers/Microsoft.Web/sites/MeghaPortfolio",
+    "appService.deploySubpath": "."
+}
