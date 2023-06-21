@@ -104,6 +104,11 @@ a:hover {
         }
 
     </style>
+    <script>
+        function redirectToHomePage() {
+            window.location.href = "/";
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -129,7 +134,7 @@ a:hover {
         <p>Phone: +14374242901</p>
         <!-- Contact Form -->
         <h2>Send me a Message</h2>
-        <form action="/" method="POST">
+        <form action="/" method="POST" onsubmit="redirectToHomePage()">
             <input type="text" name="firstName" placeholder="First Name" required>
             <input type="text" name="lastName" placeholder="Last Name" required>
             <input type="tel" name="contactNumber" placeholder="Contact Number" required>
