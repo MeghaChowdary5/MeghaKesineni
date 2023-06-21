@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add your custom styles for the Projects page here */
+
+        body {
+            background-color: #FFFAFA;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #FEF0E3;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #000;
+        }
+
+        .logo img {
+            max-width: 5%;
+            height: auto;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .project {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation Bar -->
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+            <!-- Custom Logo -->
+            <div class="logo">
+                <img src="/assets/images/Logo.jpg" alt="Logo">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Project 1 -->
+        <div class="project">
+            <img src="/assets/images/project1.jpg" alt="Project 1">
+            <h2>Software Requirements Specification (SRS): </h2>
+            <p>Parking is a daily problem in some populated countries. Even in less
+                populated countries, parking is not only a regular problem at the hot tourist destinations, but it often
+                becomes a problem during seasonal shopping and holiday seasons when there are unanticipated rushes of
+                visitors to some destinations. It is very often that people spend a significant part of their time looking for
+                parking space during their visit to different places such as Niagara Falls, Toronto Zoo, and etc.. </p>
+        </div>
+        <!-- Project 2 -->
+        <div class="project">
+            <img src="/assets/images/project2.jpg" alt="Project 2">
+            <h2>Advanced Database Concepts: </h2>
+            <p>A pharmacy management system is any system used in a pharmacy that helps automate the pharmacy
+                workflow. This code creates a database for managing medicines, customers, orders, and employees. The
+                "medicine" table stores information about each medicine, including its name, description, price,
+                quantity, expiry date and manufacturer. The "customer" table stores information about each customer,
+                including their name, address, phone number and email. The "medorders" table stores information
+                about each order, including the customer ID, order date, and total cost. The "orderitem" table stores
+                information about each item in an order, including the order ID, medicine ID, and quantity. The
+                "employee" table stores information about each employee, including their name, address, phone
+                number and email.
+                </p>
+        </div>
+        <!-- Project 3 -->
+        <div class="project">
+            <img src="/assets/images/project3_.jpg" alt="Project 3">
+            <h2>Plant Classification Using Machine Learning Algorithms:</h2>
+            <p>The aim of the project was to classify a plant as wet or dry by using SVM, CNN, and ANN classifiers; Test and train the data using SVM classifier and CNN algorithm; Predicted the accuracy rate, which provided output. </p>
+        </div>
+    </main>
+    <!-- Add your footer if needed -->
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%; padding: 10px; z-index: 1;">
+        <p style="margin: 0;">&copy; 2023 .Meg</p>
+      </footer>
+</body>
+</html>

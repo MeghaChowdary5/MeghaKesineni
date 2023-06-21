@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, p, input, textarea, button {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add your custom styles for the Contact Me page here */
+
+        body {
+            background-color: #FFFAFA;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #FEF0E3;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #000;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        form {
+            display: grid;
+            grid-gap: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 5px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation Bar -->
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+            <!-- Custom Logo -->
+            <div class="logo">
+                <img src="/assets/images/Logo.jpg" alt="Logo">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Contact Information -->
+        <h1>Contact Information</h1>
+        <p>Email: meghakesineni5@gmail.com</p>
+        <p>Phone: +14374242901</p>
+        <!-- Contact Form -->
+        <h2>Send me a Message</h2>
+        <form action="/" method="POST">
+            <input type="text" name="firstName" placeholder="First Name" required>
+            <input type="text" name="lastName" placeholder="Last Name" required>
+            <input type="tel" name="contactNumber" placeholder="Contact Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%; padding: 10px; z-index: 1;">
+        <p style="margin: 0;">&copy; 2023 .Meg</p>
+      </footer>
+</body>
+</html>

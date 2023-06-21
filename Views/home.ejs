@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add your custom styles for the Home page here */
+
+        body {
+            background-color: #FFFAFA;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #FEF0E3;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        /* Customize the navigation bar color and font */
+
+        nav ul li a {
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        /* Add hover effect to navigation links */
+
+        nav ul li a:hover {
+            color: #000;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+        }
+
+        main {
+            max-width: 200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FAF5EF;
+            color: #333;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+        
+        .intro_img {
+            width: 200px; /* Adjust the width as per your requirement */
+            height: auto; /* Auto height to maintain aspect ratio */
+            border-radius: 50%; /* Add a border-radius to make it a circle shape */
+            border: 2px solid #333; /* Add a border for the image */
+        }
+
+        main h1 {
+            font-size: 28px; /* Change the font size for the welcome message */
+            font-family: "Verdana", sans-serif; /* Change the font family for the welcome message */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation Bar -->
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+            <!-- Custom Logo -->
+            <div class="logo">
+                <img src="/assets/images/Logo.jpg" alt="Logo">
+            </div>
+            <!-- Main section -->
+            <div class="home">
+                <h1 class="intro">Hi, I am <h1 class="name">MEGHA KESINENI</h1></h1>
+                <p>Aspiring to be a Software Developer</p>
+                <img class="intro_img" src="/assets/images/introd.jpg">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Welcome Message -->
+        <h1>Welcome to My Portfolio</h1>
+        <p>Thank you for visiting my website. Feel free to explore and learn more about me and my work.</p>
+        <!-- Mission Statement -->
+        <h2>Mission Statement</h2>
+        <p>An organized and goal-driven student of Software Engineering Technology, specializing in health informatics, who holds a Bachelor of Technology. Proficient with data analytics, object-oriented programming, and testing/quality assurance.</p>
+        <!-- Link/Button to About Me or other pages -->
+        <a href="/about" class="btn">Learn More</a>
+    </main>
+    <!-- Add your footer if needed -->
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%; padding: 10px; z-index: 1;">
+        <p style="margin: 0;">&copy; 2023 .Meg</p>
+      </footer>
+</body>
+</html>
