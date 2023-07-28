@@ -1,0 +1,27 @@
+
+    <main class="container">
+      <br>
+      <a href="/projects/add" class="btn"><i class="fa-solid fa-plus fa-lg" style="color: #f1baf2;"></i> add project</a>
+      <br><br>
+      <table class="table table-striped table-hover">
+          <thead>
+              <tr>
+                <th scope="col">title</th>
+                <th scope="col">description</th>
+                <th scope="col">deadline</th>
+                <th scope="col">edit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% for (let index = 0; index < ProjectList.length; index++) { %>
+                  <tr>
+                      <td><%= ProjectList[index].title %></td>
+                      <td><%= ProjectList[index].description %></td>
+                      <td><%= ProjectList[index].deadline %></td>
+                      <td>
+                        <a href="/projects/edit/<%= ProjectList[index].id %>" class="btn btn-sm"> <i class="fa-solid fa-pen-to-square fa-lg" style="color: #f1baf2;" ></i></i> edit </a>
+                      </td>
+                  </tr>
+              <% } %>
+            </tbody>
+      </table>

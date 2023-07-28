@@ -1,0 +1,33 @@
+<main class="container">
+  <form class="form" method="POST">
+    <div class="form-group">
+      <label for="pname">title:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="ptitle"
+        name="ptitle"
+        value="<%= project.title %>" />
+    </div>
+    <div class="form-group">
+      <label for="pcompany">description:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="pdescription"
+        name="pdescription"
+        value="<%= project.description %>" />
+    </div>
+    <div class="form-group">
+      <label for="price">deadline:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="pdeadline"
+        name="pdeadline"
+        value="<%= project.deadline %>" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">submit</button>
+  </form>
+</main>
